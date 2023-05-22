@@ -1,0 +1,163 @@
+---
+title: 'Stats 250: Lab 5 Assignment'
+author: "Replace this text with your name"
+date: "Wednesday, May 24"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+### Instructions
+
+Complete the lab exercises and Dive Deeper questions below. Lab exercises will be graded out of 2 points each and the Dive Deeper questions will be graded out of 3 points each - all of them will be graded for *correctness*. Upon completion, follow the submission instructions at the bottom of this document. We strongly encourage you to work on this assignment with a partner. 
+
+***
+
+### Background
+
+We gathered 230 responses from a student survey from a prior semester. We will assume that this is a random sample of students. 
+
+Choose your own *Confidence Interval* scenario! 
+
+- **Scenario #1:** We wish to estimate the population proportion of students who believe a straw has one hole (rather than two). We find that 52 out of 230 students believe a straw has one hole. 
+- **Scenario #2:** We wish to estimate the population proportion of students who believe pineapple belongs on pizza. We find that 117 out of 230 students believe that pineapple belongs on pizza. 
+ 
+
+Choose your own *Hypothesis Test* scenario! 
+
+- **Scenario #3:** We wish to determine if we have enough evidence to suggest that fewer than a third (33%) of all students believe a hot dog can be considered a sandwich. We find that 64 out of 230 students believe that a hot dog can be considered a sandwich.   
+- **Scenario #4:** We wish to determine if we have enough evidence to suggest that a majority of all students students say "soda" (instead of "pop"). We find that 130 out of 230 students say "soda" (instead of "pop"). 
+
+
+Be sure to load in the required packages!
+
+```{r loadPackages}
+library(stats250package)
+```
+
+
+***
+
+
+### Lab Exercises
+
+After reading the background above, complete the following lab exercises. Remember, these exercises are worth 2 points each and are graded for correctness.
+
+> **1.** For Exercises 1 - 3, choose one of the confidence interval scenarios above (Scenario 1 or 2) and report your choice below. Provide the symbol and value of the point estimate for your unknown population proportion.
+
+```{r exercise1, error = T}
+# Use R as a calculator - or leave this blank and use a calculator instead
+
+```
+
+*Scenario:* Replace this text with the scenario (1 or 2) you wish to analyze.
+
+*Answer:* Replace this text with your answer.
+
+
+
+> **2.** Create a 95% confidence interval that estimates your unknown population proportion. Provide the following interpretations: 1) Interpret the confidence interval within the context of your scenario, 2) Interpret the confidence level within the context of your scenario.
+
+```{r exercise2, error = T}
+# Replace this comment with your code
+
+```
+
+*Answer 1:* Replace this text with your interpretation of the confidence interval within the context of your scenario.
+
+*Answer 2:* Replace this text with your interpretation of the confidence level within the context of your scenario.
+
+
+> **3.** Calculate the margin of error for your computed interval in Exercise 2. Would this value increase or decrease if a 99% confidence interval had been created instead?
+
+```{r exercise3, error = T}
+# Use R as a calculator - or leave this blank and use a calculator instead
+
+```
+
+*Answer:* Replace this text with your answer. 
+
+
+
+> **4.** For Exercises 4 - 7, choose one of the hypothesis test scenarios above (Scenario 3 or 4) and report your choice below. Using notation, provide the null and alternative hypothesis for your scenario. Note: there is no need to define the parameter of interest. 
+
+*Scenario:* Replace this text with the scenario (3 or 4) you wish to analyze.
+
+*Answer:* H0: ____ vs Ha: ____
+
+
+
+> **5.**  You wish to check that the sample size is large enough to perform the intended analysis. The formula sheet notes that np and n(1-p) must be at least 10. The value of n is 230, but p is unknown. What value is used in place of p and why? 
+
+*Answer:* Replace this text with your answer.
+
+
+
+> **6.** Run the hypothesis test for your scenario. Report the value of the p-value below. 
+
+```{r exercise6, error = T}
+# Replace this comment with your code
+
+```
+
+*Answer:* Replace this text with your p-value. 
+
+
+
+> **7.** Using your output from Exercise 6, evaluate the p-value and provide a conclusion in the context of the problem. 
+
+*Evaluation:* Replace this text with your answer.
+
+*Conclusion:* Replace this text with your answer.
+
+
+***
+
+
+### Dive Deeper Questions
+
+After completing the lab exercises above, complete the following Dive Deeper questions. Remember, these questions are worth 3 points each and are graded for correctness.
+
+> **1.** In either hypothesis test scenario above...suppose we sampled twice as many students (460 instead of 230), but found the same sample proportion (a phat of 0.2783 for Scenario 3 or a phat of 0.5652 for Scenario 4). Would the resulting p-value increase, decrease, or stay the same as the one computed in Exercise 6? Explain your answer. 
+
+*Answer:* Replace this text with your answer.
+
+
+
+> **2.** Suppose the 230 students were asked if they believe water is wet. The 95% confidence interval estimating the population proportion of all students that believe water is wet was found to be 0.54 to 0.66. Given this confidence interval, what number of the 230 surveyed students believe water is wet. Provide an integer value and explain how you arrived at your answer.
+
+```{r divedeeper2, error = T}
+# Use R as a calculator - or leave this blank and use a calculator instead
+
+```
+
+*Answer:* Replace this text with your answer.
+
+
+
+***
+
+
+
+### Submission Instructions
+
+Once you have finished, follow the instructions below to submit your work.
+
+1. At the top of the document, update the `author` field. Do not change anything else at the top of the document.
+
+2. Click the Knit button to create an HTML file of your work.
+
+3. In the Files pane (bottom right window), check the box next to `lab04assignment.html`. 
+
+4. In the Files pane, click on the gear icon (More) and select "Export..."  
+
+5. Do not change the file name (`lab04assignment.html`). Click Download and save the file to your computer. 
+
+6. On the Stats 250 Canvas site, navigate to the Lab 4 assignment. 
+
+7. Upload your saved `lab04assignment.html` file. 
+
+8. Click "Submit Assignment". Congratulations, you are done with Lab 4!
